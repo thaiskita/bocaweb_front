@@ -1,4 +1,4 @@
-export const Cabecalho = ({}) =>{
+export const Cabecalho = () =>{
     return (
         <div className = 'cabecalho'>
             <div>
