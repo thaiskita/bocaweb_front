@@ -1,0 +1,115 @@
+
+.cabecalho{
+  display: inline flex;
+  align-self: center;
+  justify-content: space-between;
+  background-color: #343a40;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.cabecalho div{
+  display: flex;
+}
+
+.cabecalho img{
+  max-width: 244px;
+  max-height: 106px;
+  align-self: center;
+}
+
+.cabecalho p{
+  color: white;
+  align-self: center;
+  text-align: right;
+}
+
+.cabecalho h1{
+  color: white;
+  text-align:center;
+  align-self: center;
+}
+
+.busca{
+  display: flex;
+  background-color: #e9ecef;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#usr {    
+  background-image: url("https://t4.ftcdn.net/jpg/01/98/91/59/240_F_198915941_NstBCbcWSfexW0kePhrUZVNiFK6sjqRw.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 2.4em;
+  padding-left: 1em;
+  
+}
+
+.busca input{
+  width: 230px;
+  height: 30px; 
+  align-self: center;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#nome{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #ffc107;
+  border-bottom: 2px solid #8b8b8b;
+}
+
+#usuario{
+  margin-top: 0px;
+  padding: 5px;
+  background-color: #ffc107;
+  border-bottom: 2px solid #8b8b8b;
+}
+
+#lista{
+  border: 1px ;
+  padding: 0;
+  margin-top: 25px;
+  border: 5px outset #cccccc;
+  border-radius: 3px;
+  background-color: #fcfcfc;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+#desc p{
+  padding: 5px;
+}
+
+.rodape{
+  background-color: #ffc107;
+  text-align: center;
+  padding: 1px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  .cabecalho img{
+    max-width: 170px;
+    max-height: 70px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .busca input{
+    width: 175px;
+  }
+} 
